@@ -1,0 +1,20 @@
+{
+    "name": "mswagencia/bootstrap-helper",
+    "description": "bootstrap-helper plugin for CakePHP 3",
+    "type": "cakephp-plugin",
+    "require": {
+        "php": ">=5.4.16",
+        "cakephp/cakephp": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MswAgencia\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MswAgencia\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
