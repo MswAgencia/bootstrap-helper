@@ -64,18 +64,18 @@ class FormHelper extends CakeFormHelper {
 	 */
 		protected $_defaultWidgets = [
 			'button' => ['Cake\View\Widget\ButtonWidget'],
-			'checkbox' => ['AppCore\View\Widget\CheckboxWidget', 'label'],
+			'checkbox' => ['MswAgencia\View\Widget\CheckboxWidget', 'label'],
 			'file' => ['Cake\View\Widget\FileWidget'],
 			'label' => ['Cake\View\Widget\LabelWidget'],
 			'nestingLabel' => ['Cake\View\Widget\NestingLabelWidget'],
 			'multicheckbox' => ['Cake\View\Widget\MultiCheckboxWidget', 'nestingLabel'],
 			'radio' => ['Cake\View\Widget\RadioWidget', 'nestingLabel'],
 			'select' => ['Cake\View\Widget\SelectBoxWidget'],
-			'textarea' => ['AppCore\View\Widget\TextareaWidget', 'label'],
-			'select' => ['AppCore\View\Widget\SelectBoxWidget', 'label'],
-			'datetime' => ['Cake\View\Widget\DateTimeWidget', 'AppCore\View\Widget\SelectBoxWidget'],
-			'_default' => ['AppCore\View\Widget\BasicWidget'],
-			'inlineInput' => ['AppCore\View\Widget\InlineInputWidget']
+			'textarea' => ['MswAgencia\View\Widget\TextareaWidget', 'label'],
+			'select' => ['MswAgencia\View\Widget\SelectBoxWidget', 'label'],
+			'datetime' => ['Cake\View\Widget\DateTimeWidget', 'MswAgencia\View\Widget\SelectBoxWidget'],
+			'_default' => ['MswAgencia\View\Widget\BasicWidget'],
+			'inlineInput' => ['MswAgencia\View\Widget\InlineInputWidget']
 		];
 
     public function __construct(View $view, $config = []) {
